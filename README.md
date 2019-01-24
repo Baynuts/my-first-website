@@ -3,7 +3,8 @@
 ## Table of Contents
 
 - [Description](#Description)
-- [Technologies](#technologies)
+- [Technologies](#Technologies)
+- [View](#View)
 
 
 ## Description
@@ -16,3 +17,9 @@ Basic three page website displaying logo's of web technologies, created to test 
 - Cloud9 IDE
 - Git
 - GitHub
+
+
+
+## View
+The code can be viewed using GitHub pages: 
+https://baynuts.github.io/my-first-website/
