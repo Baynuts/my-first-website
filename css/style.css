@@ -5,6 +5,16 @@ body {
   background-color: #cccccc;
 }
  
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+  background-color: #33333314;
+}
+ 
 nav ul {
   list-style: none;
   background-color: #4a4a4f;
@@ -38,16 +48,6 @@ nav a:active {
   cursor: default;
 }
 
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-h2 {
-  text-transform: uppercase;
-  background-color: #33333314;
-  
-}
 .row {
     width: 100%;
 }
