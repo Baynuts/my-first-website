@@ -2,20 +2,24 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Oswald', sans-serif;
-  background-color: #cccccc;
+  background-color: #F8F8F8;
 }
  
 h1 {
   text-align: center;
   text-transform: uppercase;
+  background-color: #fff;
+  padding: 20px 0;
+  border: 1px solid #efefef
 }
 
 h2 {
   text-transform: uppercase;
-  background-color: #5280ff;
+  background-color: #64646b;
   font-weight: 500;
+  font-size: 0.9em;
   padding:10px;
-  border-bottom: 3px solid #ff9d52;
+  margin: 0;
 }
  
 nav ul {
@@ -24,16 +28,15 @@ nav ul {
   text-align: center;
   padding: 0;
   margin: 0;
-  border-bottom: 6px solid #ff9d52;
 }
 
 nav li {
   font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
+  line-height: 60px;
+  height: 60px;
   margin:0;
   display: inline-block;
-  border-right: 2px solid #ff9d52;
+  border-right: 1px solid #353535;
 }
 
 nav li:last-child {
@@ -46,8 +49,7 @@ nav a {
   display: block;
   text-transform: uppercase;
   font-weight: 300;
-    padding: 0px 10px;
-  
+  padding: 0px 10px;
 }
 
 nav a:hover {
@@ -61,38 +63,44 @@ nav a:active {
 }
 
 .row {
-    width: 100%;
+  width: 100%;
 }
 
+.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .card {
-    float: left;
-    margin: 1%;
-    width: 31%;
-    border: 1px solid #666666;
-    text-align: center;
-    background-color: #ffffff;
+  float: left;
+  margin: 1%;
+  width: 30%;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0 5px 5px 5px;
+  border: 1px solid #efefef;
 }
 
 .card a {
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 img {
-    width: auto;
-    max-height: 180px;
+  width: auto;
+  max-height: 180px;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
   width:100%;
+  position: absolute;
+  bottom: 0;
+  clear: both;
   background-color: #4a4a4f;
   text-align: center;
   color:#cccccc;
   font-family: arial;
   font-size: 0.8em;  
   line-height: 40px;
-  border-top: 5px solid #ff9d52;
 }
